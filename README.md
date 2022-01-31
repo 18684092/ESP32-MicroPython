@@ -27,9 +27,9 @@ Flashing Micro Python onto ESP-32 and testing
  - A quick [reference guide](https://docs.micropython.org/en/latest/esp32/quickref.html) is available for the ESP32 
 
  ### Useful to know
-pLance will highlight an error with `import machine` which is an itellisense problem. [Micropy Cli](https://github.com/BradenM/micropy-cli) might help.
+ - pLance will highlight an error with `import machine` which is an itellisense problem. [Micropy Cli](https://github.com/BradenM/micropy-cli) might help.
 
- At the command prompt within the pyMakr terminal (interactive REPL) getting the ESP32 MAC address can be found by the following code:
+ - At the command prompt within the pyMakr terminal (interactive REPL) getting the ESP32 MAC address can be found by the following code:
 
 ```
 import network
