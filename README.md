@@ -29,9 +29,9 @@ Flashing Micro Python onto ESP-32 and testing
  ### Useful to know
  At the command prompt within the pyMakr terminal (interactive REPL) getting the ESP32 MAC address can be found by the following code:
 
-```import network
+```
+import network
 import ubinascii
 mac = ubinascii.hexlify(network.WLAN().config('mac'),':').decode()
-print mac```
-
-
+print mac
+```
