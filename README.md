@@ -19,6 +19,8 @@ Flashing Micro Python onto ESP-32 and testing
  - Install [VS Code](https://code.visualstudio.com/download) **not via snap!** but as a standard .deb package. Installing via snap will encounter problems getting pyMakr working (probably serial port not seen)
  - Install node.js VS Code extension
  - Install pyMakr VS Code extention
+ - This [guide](https://randomnerdtutorials.com/micropython-esp32-esp8266-vs-code-pymakr/#pymakr) explains the above 2 installs and how to connect to the ESP32 and run a simple script to flash an LED. This program is included in this repo as main.py
+ - Practice connecting, running and changing the LED flash timing to get used to the process of making changes to scripts as you will probably encounter *quirks*. Sometimes you may need to restart VC Code, other times you have to wait longer than expected for a connection.
 
 
 
