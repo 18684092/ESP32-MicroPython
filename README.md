@@ -15,11 +15,11 @@ Flashing Micro Python onto ESP-32 and testing
    
    ...give you the Chip CP2102 and Manufacturer, these are needed in next steps. *Other similar boards may have a different serial port,manufacturer or chip*.
 
- - Install [esptool.py](https://github.com/espressif/esptool) by following this [guide](https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/) or this [microPython guide](https://micropython.org/download/esp32/). Note the microPython guide has links to the firmware. 
+ - Install [esptool.py](https://github.com/espressif/esptool) by following this [guide](https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/) and flash the firmware to use MicroPython or this [microPython guide](https://micropython.org/download/esp32/). Note the MicroPython guide has links to the firmware. 
  - Install [VS Code](https://code.visualstudio.com/download) **not via snap!** but as a standard .deb package. Installing via snap will encounter problems getting pyMakr working (probably serial port not seen)
  - Install node.js VS Code extension
  - Install pyMakr VS Code extention
- - This [guide](https://randomnerdtutorials.com/micropython-esp32-esp8266-vs-code-pymakr/#pymakr) explains the above 2 installs and how to connect to the ESP32 and run a simple script to flash an LED. This program is included in this repo as main.py
+ - This [guide](https://randomnerdtutorials.com/micropython-esp32-esp8266-vs-code-pymakr/) explains the above 2 installs and how to connect to the ESP32 and run a simple script to flash an LED. This program is included in this repo as main.py
  - Practice connecting, running and changing the LED flash timing to get used to the process of making changes to scripts as you will probably encounter *quirks*. Sometimes you may need to restart VC Code, other times you have to wait longer than expected for a connection.
 
 
