@@ -2,6 +2,9 @@
 Flashing Micro Python onto ESP-32 and testing
 
 ## Ubuntu 20.04 LTS
+ - Run `sudo apt-get update` and `sudo apt-get upgrade` and make sure everything is up to date
+ - Install [Python 3.7 or above](https://www.python.org/downloads/) and python3-pip
+   `sudo apt-get install python3` and `sudo apt-get install python3-pip` 
  - Install [pySerial](https://pyserial.readthedocs.io/en/latest/pyserial.html)
  - Plug in ESP32 via USB and view `dmesg` output. You should see a line such as:
 
@@ -15,7 +18,7 @@ Flashing Micro Python onto ESP-32 and testing
    
    ...give you the Chip CP2102 and Manufacturer, these are needed in next steps. *Other similar boards may have a different serial port,manufacturer or chip*.
 
- - Install [esptool.py](https://github.com/espressif/esptool) by following this [guide](https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/) and flash the firmware to use MicroPython or this [microPython guide](https://micropython.org/download/esp32/). Note the MicroPython guide has links to the firmware. 
+ - Install [esptool.py](https://github.com/espressif/esptool) by following this [guide](https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/) and flash the firmware to use MicroPython or this [MicroPython guide](https://micropython.org/download/esp32/). Note the MicroPython guide has links to the firmware. 
  - Install [VS Code](https://code.visualstudio.com/download) **not via snap!** but as a standard .deb package. Installing via snap will encounter problems getting pyMakr working (probably serial port not seen)
  - Install node.js VS Code extension
  - Install pyMakr VS Code extention
