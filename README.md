@@ -37,3 +37,6 @@ import ubinascii
 mac = ubinascii.hexlify(network.WLAN().config('mac'),':').decode()
 print mac
 ```
+
+## Related TTGO T-SIM7000G Module ESP32 with GPS/WiFi/BT/4G
+- [CAR repo](https://github.com/18684092/CAR) is also based around the ESP32
