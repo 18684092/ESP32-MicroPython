@@ -27,7 +27,7 @@ Flashing Micro Python onto ESP-32 and testing
  - A quick [reference guide](https://docs.micropython.org/en/latest/esp32/quickref.html) is available for the ESP32 
 
  ### Useful to know
- - pLance will highlight an error with `import machine` which is an itellisense problem. [Micropy Cli](https://github.com/BradenM/micropy-cli) might help.
+ - pyLance will highlight an error with `import machine` which is an itellisense problem. [Micropy Cli](https://github.com/BradenM/micropy-cli) might help.
 
  - At the command prompt within the pyMakr terminal (interactive REPL) getting the ESP32 MAC address can be found by the following code:
 
@@ -38,5 +38,5 @@ mac = ubinascii.hexlify(network.WLAN().config('mac'),':').decode()
 print mac
 ```
 
-## Related TTGO T-SIM7000G Module ESP32 with GPS/WiFi/BT/4G
+### Related TTGO T-SIM7000G Module ESP32 with GPS/WiFi/BT/4G
 - [CAR repo](https://github.com/18684092/CAR) is also based around the ESP32
