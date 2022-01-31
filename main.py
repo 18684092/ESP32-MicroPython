@@ -5,4 +5,5 @@ led = Pin(2, Pin.OUT)
 
 while True:
   led.value(not led.value())
-  sleep(0.2)
+  sleep(1)
+  print("test")

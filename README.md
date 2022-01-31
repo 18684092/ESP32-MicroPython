@@ -24,6 +24,11 @@ Flashing Micro Python onto ESP-32 and testing
  - Install pyMakr VS Code extention
  - This [guide](https://randomnerdtutorials.com/micropython-esp32-esp8266-vs-code-pymakr/) explains the above 2 installs and how to connect to the ESP32 and run a simple script to flash an LED. This program is included in this repo as main.py
  - Practice connecting, running and changing the LED flash timing to get used to the process of making changes to scripts as you will probably encounter *quirks*. Sometimes you may need to restart VC Code, other times you have to wait longer than expected for a connection.
+ - A quick [reference guide](https://docs.micropython.org/en/latest/esp32/quickref.html) is available for the ESP32 
 
-
-
+ ### Useful to know
+ At the command prompt within the pyMakr terminal (interactive REPL) getting the ESP32 MAC address can be found by the following code:
+ `import network
+import ubinascii
+mac = ubinascii.hexlify(network.WLAN().config('mac'),':').decode()
+print mac`
