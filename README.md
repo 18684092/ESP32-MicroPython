@@ -1,6 +1,8 @@
 # ESP32-MicroPython
 Flashing Micro Python onto ESP-32 and testing
 
+![ESP32-WROOM-32](https://github.com/18684092/ESP32-MicroPython/blob/Master/Wiki%20Files/781px-ESP32_Espressif_ESP-WROOM-32_Dev_Board%20(1).jpg)
+
 ## Ubuntu 20.04 LTS
  - Run `sudo apt-get update` and `sudo apt-get upgrade` and make sure everything is up to date
  - Install [Python 3.7 or above](https://www.python.org/downloads/) and python3-pip
