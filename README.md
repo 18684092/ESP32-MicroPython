@@ -1,4 +1,4 @@
-# ESP32-MicroPython
+# ESP32-MicroPython (ESP32-WROOM-32)
 Flashing Micro Python onto ESP-32 and testing
 
 ![ESP32-WROOM-32](https://github.com/18684092/ESP32-MicroPython/blob/Master/Wiki%20Files/781px-ESP32_Espressif_ESP-WROOM-32_Dev_Board%20(1).jpg)
